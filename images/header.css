@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,400;1,600&display=swap');
+:root{
+    --header-color: #5a89ee;
+    --background-color: #ffb6c1;
+    --color: #000000;
+    --navbar-color: #fffdfd;
+    --border-color: #383bdb;
+    --border: 2px sloid var(var(--color));
+    --main-font-size: 30px;
+    --h1-font-size: 40px;
+    --h2-font-size: 20px;
+    --h3-font-size: 15px;
+    --p-font-size: 18px;
+    --table-font-size: 25px;
+    --button-color: #080cf8;
+    --card-color: #8a8cf3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Labrada', serif;
+}
+
+html{
+    scroll-padding-top: 80px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 80px;
+    width: 100%;
+    background-color: var(--header-color);
+}
+.logo h1{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.navbar{
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    top: 15px;
+}
+.navbar ul{
+    position: relative;
+    display: flex;
+    float: right;
+    right: 20px;
+}
+.navbar li{
+    margin-left: 10px;  
+}
+.navbar a{
+    color: var(--color);
+    font-size: var(--main-font-size);
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+.navbar a:hover{
+    background-color: var(--navbar-color);
+}

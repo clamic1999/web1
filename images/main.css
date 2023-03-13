@@ -1,0 +1,583 @@
+.Home{
+    position: relative;
+    height: 36rem;
+    width: 100%;
+    background-color: var(--background-color);
+}
+.left{
+    position: absolute;
+    height: 25rem;
+    width: 45%;
+    top: 35px;
+    left: 25px;
+
+}
+.left h1{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: var(--h1-font-size);
+}
+.left p{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    font-size: var(--h2-font-size);
+}
+.left button{
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    font-size: var(--h2-font-size);
+    background-color: var(--button-color);
+    border-color: var(--border-color);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.left .click{
+    position: absolute;
+    left: 40%;
+    font-size: var(--h2-font-size);
+    background-color: var(--button-color);
+    border-color: var(--border-color);
+}
+.right{
+    position: absolute;
+    height: 25rem;
+    width: 45%;
+    top: 35px;
+    left: 50%;
+
+}
+.right img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.down{
+    position: absolute;
+    height: 130px;
+    width: 95%;
+    top: 76.5%;
+    left: 30px;
+
+}
+.down img{
+    position: relative;
+    height: 100%;
+    width: 15%;
+    margin-left: 15px;
+}
+.About{
+    height: 36rem;
+    width: 100%;
+    background-color: var(--background-color);
+}
+.title-1{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    top: 5px;
+    text-align: center;
+    font-size: var(--h2-font-size);
+
+}
+.left-1{
+    position: relative;
+    height: 180px;
+    width: 40%;
+    top: 20px;
+    left: 30px;
+
+}
+.left-1 p{
+    font-size: var(--h2-font-size);
+    text-align: center;
+}
+.right-1{
+    position: absolute;
+    height: 180px;
+    width: 40%;
+    top: 110.5%;
+    left: 50%;
+
+}
+.right-1 p{
+    font-size: var(--h2-font-size);
+    text-align: center;
+}
+.click-1{
+    position: relative;
+    top: 5px;
+    left: 38%;
+    font-size: var(--h2-font-size);
+    background-color: var(--button-color);
+    border-color: var(--border-color);
+    color: var(--color);
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.left-2{
+    position: relative;
+    height: 54%;
+    width: 40%;
+    top: 30px;
+    left: 30px;
+
+}
+.left-2 img{
+    height: 100%;
+    width: 100%;
+}
+.right-2{
+    position: absolute;
+    height: 48%;
+    width: 54%;
+    top: 139%;
+    left: 45%;
+
+}
+.right-2 h3{
+    text-align: center;
+}
+.right-2 p{
+    text-align: center;
+}
+.right-2 .bar{
+    position: relative;
+    height: 30%;
+    width: 40%;
+    border: var(--border);
+}
+.right-2 .bar-1{
+    position: relative;
+    height: 25px;
+    width: 50%;
+    top: 20px;
+    left: 20px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: var(--button-color);
+}
+.right-2 .bar-2{
+    position: relative;
+    height: 25px;
+    width: 95%;
+    top: 40px;
+    left: 20px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: var(--button-color);
+}
+
+.right-2 .bar-3{
+    position: relative;
+    height: 25px;
+    width: 145%;
+    top: 60px;
+    left: 20px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: var(--button-color);
+}
+.right-2 .bar-4{
+    position: relative;
+    height: 25px;
+    width: 200%;
+    top: 80px;
+    left: 20px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: var(--button-color);
+}
+.Services{
+    height: 36rem;
+    width: 100%;
+    background-color: var(--background-color);
+}
+.title-2{
+    text-align: center;
+    position: relative;
+    height: 150px;
+    width: 100%;
+    top: 5px;
+    font-size: var(--h2-font-size);
+
+}
+.title-2 p{
+    position: relative;
+    top: 20px;
+}
+.mid{
+    display: flex;
+    position: relative;
+    top: 10px;
+    height: 40%;
+    width: 100%;
+
+    text-align: center;
+}
+.card{
+    position: relative;
+    background-color: var(--card-color);
+    top: 5%;
+    left: 60px;
+    height: 90%;
+    width: 18%;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+.card i{
+    position: relative;
+    top: 20px;
+}
+.card h5{
+    position: relative;
+    top: 40px;
+    font-size: var(--h2-font-size);
+}
+.card p{
+    position: relative;
+    top: 50px;
+    font-size: var(--h3-font-size);
+}
+.low{
+    position: relative;
+    height: 30%;
+    width: 100%;
+    top: 15px;
+    text-align: center;
+    background-color: var(--header-color);
+}
+.low h1{
+    font-size: var(--h1-font-size);
+}
+.low p{
+    font-size: var(--h2-font-size);
+}
+.dot{
+    font-size: var(--h2-font-size);
+    padding: 8px 8px;
+    top: 10px;
+    background-color: var(--button-color);
+    border-color: var(--border-color);
+    border-radius: 20px;
+}
+.Portfolio{
+    height: 36rem;
+    width: 100%;
+    background-color: var(--background-color);
+}
+.title-3{
+    text-align: center;
+    position: relative;
+    height: 120px;
+    width: 100%;
+    top: 5px;
+    font-size: var(--h2-font-size);
+
+}
+.loop{
+    display: flex;
+    position: relative;
+    height: 38%;
+    width: 100%;
+    top: 10px;
+
+}
+.card1{
+    position: relative;
+    height: 90%;
+    width: 20%;
+    top: 10px;
+    left: 20px;
+    margin-left: 45px;
+    background-color: var(--card-color);
+}
+.card1 img{
+    height: 100%;
+    width: 100%;
+}
+.loop1{
+    display: flex;
+    position: relative;
+    height: 38%;
+    width: 100%;
+    top: 15px;
+
+}
+.card2{
+    position: relative;
+    height: 90%;
+    width: 20%;
+    top: 10px;
+    left: 20px;
+    margin-left: 45px;
+    background-color: var(--card-color);
+}
+.card2 img{
+    height: 100%;
+    width: 100%;
+}
+.Team{
+    height: 36rem;
+    width: 100%;
+    background-color: var(--background-color);
+}
+.title-4{
+    text-align: center;
+    position: relative;
+    height: 120px;
+    width: 100%;
+    top: 5px;
+    font-size: var(--h2-font-size);
+
+}
+.loop2{
+    display: flex;
+    position: relative;
+    height: 40%;
+    width: 100%;
+    top: 10px;
+
+}
+.card3{
+    display: inline-flex;
+    position: relative;
+    height: 80%;
+    width: 40%;
+    top: 20px;
+    left: 30px;
+    margin-left: 70px;
+    background-color: var(--card-color);
+}
+.card3 img{
+    height: 100%;
+    width: 40%;
+}
+.card3 h5{
+    position: relative;
+    top: 10px;
+    left: 50px;
+    width: 70%;
+    font-size: var(--h3-font-size);
+}
+.card3 p{
+    position: relative;
+    top: 40px;
+    right: 30px;
+}
+.card3 i{
+    position: relative;
+    top: 85%;
+    right: 30%;
+}
+.loop3{
+    display: flex;
+    position: relative;
+    height: 39%;
+    width: 100%;
+    top: 12px;
+
+}
+.card4{
+    display: inline-flex;
+    position: relative;
+    height: 80%;
+    width: 40%;
+    top: 20px;
+    left: 30px;
+    margin-left: 70px;
+    background-color: var(--card-color);
+}
+.card4 img{
+    height: 100%;
+    width: 40%;
+}
+.card4 h5{
+    position: relative;
+    top: 10px;
+    left: 50px;
+    width: 70%;
+    font-size: var(--h3-font-size);
+}
+.card4 p{
+    position: relative;
+    top: 40px;
+    right: 30px;
+}
+.card4 i{
+    position: relative;
+    top: 88%;
+    right: 30%;
+}
+.Pricing{
+    height: 36rem;
+    width: 100%;
+    background-color: var(--background-color);   
+}
+.title-5{
+    text-align: center;
+    position: relative;
+    height: 120px;
+    width: 100%;
+    top: 5px;
+    font-size: var(--h2-font-size);
+
+}
+.title-5 p{
+    position: relative;
+    top: 10px;
+}
+.loop4{
+    display: flex;
+    position: relative;
+    height: 70%;
+    width: 100%;
+    top: 30px;
+
+}
+.card5{
+    position: relative;
+    height: 90%;
+    width: 30%;
+    top: 20px;
+    left: 10px;
+    margin-left: 30px;
+    background-color: var(--card-color);
+    border-radius: 20px;
+    border-color: var(--border-color);
+}
+.card5 h2{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.card5 h5{
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-size: var(--h2-font-size);
+}
+.card5 p{
+    position: relative;
+    top: 25px;
+    line-height: 35px;
+    font-size: var(--p-font-size);
+}
+.click-2{
+    position: relative;
+    top: 25px;
+    left: 38%;
+    font-size: var(--h2-font-size);
+    background-color: var(--button-color);
+    border-color: var(--border-color);
+    color: var(--color);
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.Contact{
+    height: 36rem;
+    width: 100%;
+    background-color: var(--background-color);
+}
+.title-6{
+    text-align: center;
+    position: relative;
+    height: 120px;
+    width: 100%;
+    top: 5px;
+    font-size: var(--h2-font-size);
+
+}
+.title-6 p{
+    position: relative;
+    top: 10px;
+}
+.card6{
+    position: relative;
+    height: 70%;
+    width: 30%;
+    top: 20px;
+    left: 10px;
+    margin-left: 30px;
+    background-color: var(--card-color);
+    border-radius: 20px;
+    border-color: var(--border-color);
+}
+.card6 h1{
+    position: relative;
+    top: 30px;
+    left: 40px;
+    font-size: var(--h1-font-size);
+}
+.card6 p{
+    position: relative;
+    top: 35px;
+    left: 43px;
+    font-size: var(--h2-font-size);
+}
+.card7{
+    position: relative;
+    height: 70%;
+    width: 30%;
+    bottom: 66%;
+    left: 55%;
+    margin-left: 30px;
+    background-color: var(--card-color);
+    border-radius: 20px;
+    border-color: var(--border-color);
+}
+.table{
+    position: relative;
+    height: 90%;
+    width: 80%;
+    top: 15px;
+    left: 40px;
+    border: var(--color);
+
+}
+.table h1{
+    position: relative;
+    top: 15px;
+    left: 10px;
+    font-size: var(--table-font-size);
+}
+.box{
+    position: relative;
+    left: 70px;
+    top: 13px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+.click-3{
+    position: relative;
+    top: 70px;
+    right: 70px;
+    font-size: var(--h2-font-size);
+    background-color: var(--button-color);
+    border-color: var(--border-color);
+    color: var(--color);
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+hr{
+    position: relative;
+    height: 10px;
+    width: 90%;
+    background-color: var(--color);
+    left: 70px;
+}
+.bot{
+    position: relative;
+    text-align: center;
+    
+    font-size: var(--h2-font-size);
+}
+#toggle{
+    display: none;
+}
+.pubg{
+    display: none;
+}
